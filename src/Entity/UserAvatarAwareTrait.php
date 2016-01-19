@@ -1,16 +1,28 @@
 <?php
 namespace Strapieno\UserAvatar\Model\Entity;
 
-interface UserAvatarAwareInterface
+trait UserAvatarAwareTrait
 {
+    /**
+     * @var string
+     */
+    protected $avatar
+
     /**
      * return string
      */
-    public function getAvatar();
+    public function getAvatar()
+    {
+        return $this->avatar;
+    }
 
     /**
      * @param $avatar string
      * return $this
      */
-    public function getAvatar($avatar);
+    public function getAvatar($avatar)
+    {
+        $this->avatar = $avatar;
+        return $this;
+    }
 }
