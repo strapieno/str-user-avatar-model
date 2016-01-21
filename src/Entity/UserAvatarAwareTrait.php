@@ -6,7 +6,7 @@ trait UserAvatarAwareTrait
     /**
      * @var string
      */
-    protected $avatar
+    protected $avatar;
 
     /**
      * return string
@@ -20,7 +20,7 @@ trait UserAvatarAwareTrait
      * @param $avatar string
      * return $this
      */
-    public function getAvatar($avatar)
+    public function setAvatar($avatar)
     {
         $this->avatar = $avatar;
         return $this;

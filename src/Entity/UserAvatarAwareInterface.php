@@ -12,5 +12,5 @@ interface UserAvatarAwareInterface
      * @param $avatar string
      * return $this
      */
-    public function getAvatar($avatar);
+    public function setAvatar($avatar);
 }
