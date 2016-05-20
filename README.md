@@ -1,1 +1,1 @@
-# Strapieno user avatar api
+# Strapieno user avatar model
