@@ -1,7 +1,7 @@
 <?php
 namespace Strapieno\UserAvatar\Model\Entity;
 
-trait UserAvatarAwareTrait
+trait AvatarAwareTrait
 {
     /**
      * @var string

@@ -1,7 +1,7 @@
 <?php
 namespace Strapieno\UserAvatar\Model\Entity;
 
-interface UserAvatarAwareInterface
+interface AvatarAwareInterface
 {
     /**
      * return string

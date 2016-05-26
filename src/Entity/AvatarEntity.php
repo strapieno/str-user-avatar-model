@@ -6,7 +6,7 @@ use ImgMan\Apigility\Entity\ImageEntity;
 /**
  * Class UserAvatarEntity
  */
-class UserAvatarEntity extends ImageEntity
+class AvatarEntity extends ImageEntity
 {
 
 }
